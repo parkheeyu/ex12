@@ -56,8 +56,7 @@ export const FavoritePage = () => {
                                 <td>{local.place_name}</td>
                                 <td>{local.address_name}</td>
                                 <td>{local.phone}<br/>
-                                    {local.date}
-                                </td>
+                                    {local.date}</td>
                                 <td><MapPage local ={local}/></td>
                                 <td><Button className='btn-sm' variant='danger'
                                     onClick={()=>onRemove(local.id)}>삭제</Button></td>
