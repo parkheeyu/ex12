@@ -53,7 +53,7 @@ const MyPage = ({ history }) => {
         }
 
         setLoading(false);
-        history.pusg('/')
+        history.push('/')
     }
 
     useEffect(()=>{
